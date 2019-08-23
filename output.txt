@@ -1,0 +1,121 @@
+Enter dimension of cuboid: 0
+
+Dimension: 0
+
+Count-
+600
+AVG_INCOME-
+27524.033
+
+
+
+
+Enter dimension of cuboid: 1
+
+Dimension: 1
+
+COUNT-
+AGE:
+YOUNG	MIDDLE	OLD
+195	214	191
+REGION:
+INNER_CITY	TOWN	RURAL	SUBURBAN
+269		173	96	62
+SEX:
+FEMALE	MALE
+300	300
+
+AVG INCOME-
+AGE:
+YOUNG		MIDDLE		OLD
+16544.781	27004.48	39315.336
+REGION:
+INNER_CITY	TOWN		RURAL		SUBURBAN
+26844.004	26786.348	30027.602	28656.355
+SEX:
+FEMALE		MALE
+27831.379	27216.697
+
+Enter dimension of cuboid: 2
+
+Dimension: 2
+
+COUNT-
+AGE-SEX:
+	Male	Female
+Young	102	93
+Middle	118	96
+Old	80	111
+AGE-REGION:
+	Inner_city	Town	Rural	Suburban
+Young	97		50	28	20
+Middle	80		77	35	22
+Old	92		46	33	20
+SEX-REGION
+	Inner_city	Town	Rural	Suburban
+Female	131		92	47	30
+Male	138		81	49	32
+
+
+AVERAGE-INCOME
+AGE-SEX
+	Male		Female
+Young	16348.695	16759.838
+Middle	27698.184	26151.826
+Old	40363.195	38560.086
+AGE-REGION
+	Inner_city	Town		Rural		Suburban
+Young	1574966.0	876210.44	450506.03	324550.06
+Middle	2107538.8	2023416.1	1031528.5	616477.75
+Old	3538531.2	1734411.8	1400615.5	835666.4
+SEX-REGION
+	Inner_city	Town		Rural		Suburban
+Female	3558773.2	2459223.0	1474214.8	857198.2
+Male	3662262.0	2174815.5	1408435.1	919496.06
+
+
+
+Enter dimension of cuboid: 3
+
+Dimension: 3
+
+Slicing by age
+YOUNG
+COUNT-
+	Inner_city	Town	Rural	Suburban
+Female	44		28	12	9
+Male	53		22	16	11
+
+AVG_INCOME-
+	Inner_city		Town		Rural		Suburban
+Female	16484.553		17634.117	14956.957	17789.56
+Male	16031.047		17384.326	16938.908	14949.453
+
+MIDDLE
+COUNT-
+	Inner_city	Town	Rural	Suburban
+Female	36		36	13	11
+Male	44		41	22	11
+
+AVG_INCOME-
+	Inner_city		Town		Rural		Suburban
+Female	25723.46		25031.428	27482.262	29648.127
+Male	26852.133		27372.803	30648.143	26395.299
+
+OLD
+COUNT-
+	Inner_city	Town	Rural	Suburban
+Female	51		28	22	10
+Male	41		18	11	10
+
+AVG_INCOME-
+	Inner_city		Town		Rural		Suburban
+Female	37400.18		38012.023	42611.91	37096.27
+Male	39783.477		37226.406	42104.87	46470.37
+
+
+
+Enter dimension of cuboid: 4
+
+Invalid dimension
+
